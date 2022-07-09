@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color: #FFF8F0;
+}
+
+#header{
+    width: 100%;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(52,195,225);
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+    height: 40px;
+}
+
+#container{
+    text-align: center;
+}
+
+.btun{
+    margin-bottom : 45px;
+}
+
+canvas{
+    border-radius: 10px;
+    border : 5px ridge #fff;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}

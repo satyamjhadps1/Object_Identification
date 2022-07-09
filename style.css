@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-size: cover;
+}
+
+#header{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(246, 246, 246);
+  font-size: 43px;
+
+  margin: 50px;
+}
+
+#content_p{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.btn_row{
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    transition: 0.7s;
+}
+
+.btn_row:hover{
+    background-color: rgb(255, 64, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn_row:focus{
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
